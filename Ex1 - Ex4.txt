@@ -1,0 +1,28 @@
+this is exercise 1 to 4 from git learning
+
+Output cmd from my pc:
+PS G:\VSCode Projects\GIT Learning> git init
+Intialized a empty repository
+PS G:\VSCode Projects\GIT Learning> git status
+unsaved changes:
+Ex1.txt 
+Sample.py
+PS G:\VSCode Projects\GIT Learning> git add .
+PS G:\VSCode Projects\GIT Learning> git status
+Ex1.txt
+Sample.py
+PS G:\VSCode Projects\GIT Learning> git commit -m "Added two files"
+PS G:\VSCode Projects\GIT Learning> git remote origin https://github.com/C-Anirudhan/Git-Learning.git
+PS G:\VSCode Projects\GIT Learning> git branch -M main
+PS G:\VSCode Projects\GIT Learning> git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 331 bytes | 331.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/C-Anirudhan/Git-Learning.git
+ * [new branch]      main -> main
+PS G:\VSCode Projects\GIT Learning> git status
+On branch main
+nothing to commit, working tree clean
