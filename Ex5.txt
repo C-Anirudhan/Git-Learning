@@ -1,0 +1,5 @@
+I pulled this project from Anirudhan C for practicing
+
+git clone
+git branch
+git pull
